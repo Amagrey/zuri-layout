@@ -2,6 +2,25 @@
     margin: 0;
     padding: 0;
 }
+.link{
+    padding: 15px;
+    background-color: black;
+    color: white;
+    display: flex;
+   align-items: center;
+    flex-flow: wrap;
+    border-radius: 30px;
+    text-decoration: none; 
+    flex-flow: column;
+    height: 5vh;
+      
+}
+.link:hover{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: black;
+    transition: 0.4s; 
+}
 body{
     background-color: #173e43;
     display: flex;
@@ -38,7 +57,6 @@ main div{
 .itemC{
     background-color: rgb(55, 241, 55);
     grid-area: c;
-    padding;
     padding-bottom: 0.5cm;
 }
 .itemD{

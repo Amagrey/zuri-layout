@@ -101,22 +101,23 @@ main div{
     background-color: rgb(62, 154, 234);
     grid-area: e;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 807px) and (min-width: 100px) {
     main {
-        flex-direction: column;
-      width: 25%;
-      margin-left: -10px;
-      padding: 1cm;
-      display: grid;
-      margin-left: -40%;
-
+        flex-direction: row;
+      margin-right: -50%;
+      padding: 10px;
     }
     body > * {
-      width: 50%;
+        width: 100%;
     }
     main div {
        padding: 1.2cm;
        gap: 5px;
+    }
+    .link{
+      margin-top: 700px;  
+      text-align: center;
+        width: 175px;
     }
     .itemA{
         padding: 2.3cm;

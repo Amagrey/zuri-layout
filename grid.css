@@ -103,31 +103,33 @@ main div{
 @media screen and (max-width: 807px) and (min-width: 100px) {
     main {
         flex-direction: row;
-      margin-right: -50%;
       padding: 10px;
+      width: 25%;
+    min-height: 25%;
+    margin: auto;
+    margin-left: -50%;
     }
     body > * {
         width: 100%;
+        
     }
     main div {
        padding: 1.2cm;
        gap: 5px;
+       margin-left: ;
     }
     .link{
-      margin-top: 700px;  
+      margin-top: -700px;  
       text-align: center;
         width: 175px;
+        margin-left: 50%;
+        margin-right: -5%;
     }
     .itemA{
-        padding: 2.3cm;
-        padding-top: 1cm;
+        padding: 1.5cm;
     }
     .itemB{
-        padding-top: 1.1cm;
-    }
-    .itemC{
-        padding-top: 0cm;
-        padding-bottom: 2cm;
+        padding: 1.5cm;
     }
     
   }

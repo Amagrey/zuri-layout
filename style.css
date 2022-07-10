@@ -166,7 +166,6 @@ p{
         flex-flow: wrap;
         box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
         cursor: pointer;
-        animation: rotate 0.7s ease-in-out infinite alternate;
         text-align: center;
         width: 175px;
     }
@@ -176,6 +175,7 @@ p{
         color: hsl(179, 100%, 13%);
         transition: 0.4s;
         animation: normal;
+        animation: rotate 0.7s ease-in-out infinite alternate;
     }
     @keyframes rotate {
         0%
